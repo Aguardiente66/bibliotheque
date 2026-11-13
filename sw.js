@@ -1,6 +1,6 @@
 // Mise en mémoire de l'application pour qu'elle s'ouvre sans réseau.
 // Pour forcer une mise à jour chez tous les appareils, changer V.
-const V = 'bib-v1', IMG = 'bib-img-v1';
+const V = 'bib-v2', IMG = 'bib-img-v1';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
